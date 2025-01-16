@@ -69,7 +69,7 @@ body {
 .all {
     border: 0px;
     position: fixed;
-    top: 15%;
+    top: 136px;
     width: 90px;
     height: 40px;
     background-color: rgb(97, 180, 253);
@@ -80,7 +80,7 @@ body {
 .all:hover {
     border: 0px;
     position: fixed;
-    top: 15%;
+    top: 136px;
     width: 90px;
     height: 40px;
     background-color: rgb(38, 153, 253);
@@ -90,7 +90,7 @@ body {
 .one {
     border: 0px;
     position: fixed;
-    top: 15%;
+    top: 136px;
     width: 90px;
     height: 40px;
     background-color: rgb(97, 180, 253);
@@ -101,10 +101,70 @@ body {
 .one:hover {
     border: 0px;
     position: fixed;
-    top: 15%;
+    top: 136px;
     width: 90px;
     height: 40px;
     background-color: rgb(38, 153, 253);
     left: 20px;
     transition: 300ms;
+}
+
+.set {
+    border: 0px;
+    position: fixed;
+    top: 136px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(97, 180, 253);
+    left: 220px;
+    transition: 300ms;
+}
+
+.set:hover {
+    border: 0px;
+    position: fixed;
+    top: 136px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(38, 153, 253);
+    left: 220px;
+}
+
+.slider {
+    border: 0px;
+    position: fixed;
+    top: 160px;
+    width: 120px;
+    height: 15px;
+    left: 320px;
+}
+
+.risk {
+    border: 0px;
+    position: fixed;
+    top: 110px;
+    width: 130px;
+    height: 15px;
+    left: 320px;
+}
+
+.reset {
+    border: 0px;
+    position: fixed;
+    top: 136px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(97, 180, 253);
+    left: 460px;
+    transition: 300ms;
+}
+
+.reset:hover {
+    border: 0px;
+    position: fixed;
+    top: 136px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(38, 153, 253);
+    left: 460px;
 }

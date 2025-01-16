@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investment Website</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="bar">
@@ -14,7 +15,7 @@
         <div class="balance">
             <h1>
                 Balance:
-                <h1 class="balanceNum">
+                <h1 class="balanceNum" id="balanceNum">
                     $100
                 </h1>
             </h1>
@@ -22,12 +23,23 @@
     </div>
     
     <div>
-        <button class="all">
+        <button class="all" id="allButton">
             Click To Invest It All
         </button>
-        <button class="one">
+        <button class="one" id="oneButton">
             Click To Invest $1
+        </button>
+        <button class="set" id="setButton">
+            Click To Set Investment
+        </button>
+        <p class="risk" id="riskLabel">
+            Risk Multiplier: 1x = 1x Profit
+        </p>
+        <input type="range" min="1" max="199" value="100" class="slider" id="riskSlider">
+        <button class="reset" id="resetButton">
+            Reset To 1x Risk
         </button>
     </div>
 </body>
 </html>
+<script src="main.js"></script>

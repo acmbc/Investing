@@ -134,7 +134,7 @@ body {
     border: 0px;
     position: fixed;
     top: 160px;
-    width: 120px;
+    width: 165px;
     height: 15px;
     left: 320px;
 }
@@ -143,7 +143,7 @@ body {
     border: 0px;
     position: fixed;
     top: 110px;
-    width: 130px;
+    width: 150px;
     height: 15px;
     left: 320px;
 }
@@ -155,7 +155,7 @@ body {
     width: 90px;
     height: 40px;
     background-color: rgb(97, 180, 253);
-    left: 460px;
+    left: 500px;
     transition: 300ms;
 }
 
@@ -166,5 +166,5 @@ body {
     width: 90px;
     height: 40px;
     background-color: rgb(38, 153, 253);
-    left: 460px;
+    left: 500px;
 }
